@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <h1>Personal Course Organizer</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">My Courses</a></li>
+            <li><a href="add-course.html">Add Course</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>My Enrolled Courses</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Instructor</th>
+                            <th>Credit Hours</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Internet Technology</td>
+                            <td>Dr. Ahmed</td>
+                            <td>3</td>
+                            <td>HTML, CSS, and Web Design</td>
+                        </tr>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>Dr. Sara</td>
+                            <td>3</td>
+                            <td>Calculus and Linear Algebra</td>
+                        </tr>
+                        <tr>
+                            <td>Data Structures</td>
+                            <td>Dr. Mohamed</td>
+                            <td>4</td>
+                            <td>Trees, Graphs, and Arrays</td>
+                        </tr>
+                        <tr>
+                            <td>Logic Design</td>
+                            <td>Dr. Hany</td>
+                            <td>3</td>
+                            <td>Boolean Algebra and Circuits</td>
+                        </tr>
+                        <tr>
+                            <td>English Language</td>
+                            <td>Dr. Mona</td>
+                            <td>2</td>
+                            <td>Technical Writing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eslam Bahey adbelfattah (ID: 20250130). All rights reserved.</p>
+    </footer>
+</body>
+</html>
